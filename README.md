@@ -57,3 +57,46 @@ lightbox.on('contentLoad', e => {
 
 lightbox.init()
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+____________________________________________
+____________________________________________
+
+<br><br>
+<br><br>
+
+# Get current index of item when press navigation
+```javascript
+lightbox.on('change', function() {
+    // eslint-disable-next-line no-invalid-this
+    const index = this.currIndex
+    console.log('index:', index)
+})
+```
